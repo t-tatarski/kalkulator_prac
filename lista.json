@@ -1,0 +1,219 @@
+{
+  "elementyProtetyczne": [
+    {
+      "ID": "K001",
+      "NAZWA_ELEMENTU": "Korona metalowa",
+      "CENA": ""
+    },
+    {
+      "ID": "K002",
+      "NAZWA_ELEMENTU": "Korona porcelanowa na metalu",
+      "CENA": ""
+    },
+    {
+      "ID": "K003",
+      "NAZWA_ELEMENTU": "Korona pełnoceramiczna z tlenku cyrkonu",
+      "CENA": ""
+    },
+    {
+      "ID": "K004",
+      "NAZWA_ELEMENTU": "Korona pełnoceramiczna e.max",
+      "CENA": ""
+    },
+    {
+      "ID": "K005",
+      "NAZWA_ELEMENTU": "Korona tymczasowa akrylowa",
+      "CENA": ""
+    },
+    {
+      "ID": "M001",
+      "NAZWA_ELEMENTU": "Most metalowy (za punkt)",
+      "CENA": ""
+    },
+    {
+      "ID": "M002",
+      "NAZWA_ELEMENTU": "Most porcelanowy na metalu (za punkt)",
+      "CENA": ""
+    },
+    {
+      "ID": "M003",
+      "NAZWA_ELEMENTU": "Most pełnoceramiczny (za punkt)",
+      "CENA": ""
+    },
+    {
+      "ID": "M004",
+      "NAZWA_ELEMENTU": "Most tymczasowy (za punkt)",
+      "CENA": ""
+    },
+    {
+      "ID": "L001",
+      "NAZWA_ELEMENTU": "Licówka kompozytowa",
+      "CENA": ""
+    },
+    {
+      "ID": "L002",
+      "NAZWA_ELEMENTU": "Licówka porcelanowa",
+      "CENA": ""
+    },
+    {
+      "ID": "L003",
+      "NAZWA_ELEMENTU": "Licówka pełnoceramiczna",
+      "CENA": ""
+    },
+    {
+      "ID": "W001",
+      "NAZWA_ELEMENTU": "Wkład koronowo-korzeniowy metalowy lany",
+      "CENA": ""
+    },
+    {
+      "ID": "W002",
+      "NAZWA_ELEMENTU": "Wkład koronowo-korzeniowy z włókna szklanego",
+      "CENA": ""
+    },
+    {
+      "ID": "W003",
+      "NAZWA_ELEMENTU": "Wkład koronowo-korzeniowy standardowy",
+      "CENA": ""
+    },
+    {
+      "ID": "I001",
+      "NAZWA_ELEMENTU": "Inlay kompozytowy",
+      "CENA": ""
+    },
+    {
+      "ID": "I002",
+      "NAZWA_ELEMENTU": "Inlay ceramiczny",
+      "CENA": ""
+    },
+    {
+      "ID": "I003",
+      "NAZWA_ELEMENTU": "Onlay kompozytowy",
+      "CENA": ""
+    },
+    {
+      "ID": "I004",
+      "NAZWA_ELEMENTU": "Onlay ceramiczny",
+      "CENA": ""
+    },
+    {
+      "ID": "P001",
+      "NAZWA_ELEMENTU": "Proteza całkowita akrylowa",
+      "CENA": ""
+    },
+    {
+      "ID": "P002",
+      "NAZWA_ELEMENTU": "Proteza częściowa akrylowa",
+      "CENA": ""
+    },
+    {
+      "ID": "P003",
+      "NAZWA_ELEMENTU": "Proteza szkieletowa",
+      "CENA": ""
+    },
+    {
+      "ID": "P004",
+      "NAZWA_ELEMENTU": "Proteza elastyczna (nylon, acetal)",
+      "CENA": ""
+    },
+    {
+      "ID": "P005",
+      "NAZWA_ELEMENTU": "Proteza natychmiastowa",
+      "CENA": ""
+    },
+    {
+      "ID": "P006",
+      "NAZWA_ELEMENTU": "Naprawa protezy - pęknięcie",
+      "CENA": ""
+    },
+    {
+      "ID": "P007",
+      "NAZWA_ELEMENTU": "Naprawa protezy - dostawienie zęba",
+      "CENA": ""
+    },
+    {
+      "ID": "I101",
+      "NAZWA_ELEMENTU": "Korona na implancie",
+      "CENA": ""
+    },
+    {
+      "ID": "I102",
+      "NAZWA_ELEMENTU": "Most na implantach (za punkt)",
+      "CENA": ""
+    },
+    {
+      "ID": "I103",
+      "NAZWA_ELEMENTU": "Proteza overdenture na implantach",
+      "CENA": ""
+    },
+    {
+      "ID": "I104",
+      "NAZWA_ELEMENTU": "Proteza typu All-on-4",
+      "CENA": ""
+    },
+    {
+      "ID": "I105",
+      "NAZWA_ELEMENTU": "Proteza typu All-on-6",
+      "CENA": ""
+    },
+    {
+      "ID": "S001",
+      "NAZWA_ELEMENTU": "Szyna zgryzowa/relaksacyjna",
+      "CENA": ""
+    },
+    {
+      "ID": "S002",
+      "NAZWA_ELEMENTU": "Szyna wybielająca",
+      "CENA": ""
+    },
+    {
+      "ID": "S003",
+      "NAZWA_ELEMENTU": "Aparat ortodontyczny retencyjny",
+      "CENA": ""
+    },
+    {
+      "ID": "S004",
+      "NAZWA_ELEMENTU": "Szyna sportowa",
+      "CENA": ""
+    },
+    {
+      "ID": "E001",
+      "NAZWA_ELEMENTU": "Łącznik do implantu standardowy",
+      "CENA": ""
+    },
+    {
+      "ID": "E002",
+      "NAZWA_ELEMENTU": "Łącznik do implantu indywidualny",
+      "CENA": ""
+    },
+    {
+      "ID": "E003",
+      "NAZWA_ELEMENTU": "Precyzyjne elementy retencyjne (zasuwa, zatrzask)",
+      "CENA": ""
+    },
+    {
+      "ID": "E004",
+      "NAZWA_ELEMENTU": "Belka łącząca implanty",
+      "CENA": ""
+    },
+    {
+      "ID": "E005",
+      "NAZWA_ELEMENTU": "Indywidualna łyżka wyciskowa",
+      "CENA": ""
+    },
+    {
+      "ID": "U001",
+      "NAZWA_ELEMENTU": "Modelowanie diagnostyczne",
+      "CENA": ""
+    },
+    {
+      "ID": "U002",
+      "NAZWA_ELEMENTU": "Mock-up (przymiarka estetyczna)",
+      "CENA": ""
+    },
+    {
+      "ID": "U003",
+      "NAZWA_ELEMENTU": "Wax-up (diagnostyczny model woskowy)",
+      "CENA": ""
+    }
+  ]
+}
