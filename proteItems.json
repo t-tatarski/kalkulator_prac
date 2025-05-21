@@ -1,0 +1,72 @@
+[
+  {
+    "id": "p001",
+    "name": "Korona protetyczna porcelanowa",
+    "description": "Standardowa korona protetyczna na podbudowie metalowej pokryta porcelaną",
+    "category": "Korony",
+    "price": 800.00
+  },
+  {
+    "id": "p002",
+    "name": "Korona pełnoceramiczna",
+    "description": "Korona wykonana w całości z ceramiki bez podbudowy metalowej",
+    "category": "Korony",
+    "price": 1200.00
+  },
+  {
+    "id": "p003",
+    "name": "Most 3-punktowy",
+    "description": "Most protetyczny obejmujący 3 zęby",
+    "category": "Mosty",
+    "price": 2400.00
+  },
+  {
+    "id": "p004",
+    "name": "Proteza częściowa akrylowa",
+    "description": "Standardowa proteza częściowa wykonana z akrylu",
+    "category": "Protezy",
+    "price": 1500.00
+  },
+  {
+    "id": "p005",
+    "name": "Proteza szkieletowa",
+    "description": "Proteza częściowa na podbudowie metalowej",
+    "category": "Protezy",
+    "price": 2800.00
+  },
+  {
+    "id": "p006",
+    "name": "Implant dentystyczny",
+    "description": "Tytanowy implant zębowy z łącznikiem",
+    "category": "Implanty",
+    "price": 3500.00
+  },
+  {
+    "id": "p007",
+    "name": "Licówka porcelanowa",
+    "description": "Cienka nakładka porcelanowa na powierzchnię zęba",
+    "category": "Licówki",
+    "price": 900.00
+  },
+  {
+    "id": "p008",
+    "name": "Wkład koronowo-korzeniowy",
+    "description": "Odbudowa zęba po leczeniu kanałowym",
+    "category": "Odbudowy",
+    "price": 450.00
+  },
+  {
+    "id": "p009",
+    "name": "Szyna relaksacyjna",
+    "description": "Szyna chroniąca zęby przed zgrzytaniem",
+    "category": "Inne",
+    "price": 350.00
+  },
+  {
+    "id": "p010",
+    "name": "Profesjonalne wybielanie zębów",
+    "description": "Zabieg wybielania zębów w gabinecie",
+    "category": "Estetyka",
+    "price": 600.00
+  }
+]
