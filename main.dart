@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'dart:async';
 
 void main() {
   runApp(const ProteticCalculatorApp());
@@ -17,7 +18,72 @@ class ProteticCalculatorApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const SplashScreen(), // Rozpoczynamy od ekranu powitalnego
+      debugShowCheckedModeBanner: false, // Usuwa baner debug
+    );
+  }
+}
+
+// Nowa klasa Splash Screen
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
+
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    // Po 3 sekundach przechodzimy do głównego ekranu
+    Timer(const Duration(seconds: 3), () {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (context) => const HomePage()),
+      );
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.blue[100], // Jasne niebieskie tło
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // Ikonka dentystyczna/protetyczna
+            Icon(
+              Icons.medical_services,
+              size: 100,
+              color: Colors.blue[700],
+            ),
+            const SizedBox(height: 30),
+            const Text(
+              'Kalkulator Pracy Protetycznej',
+              style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+              ),
+            ),
+            const SizedBox(height: 20),
+            const Text(
+              'Twoje narzędzie do wyceny prac protetycznych',
+              style: TextStyle(
+                fontSize: 16,
+                color: Colors.blue,
+              ),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 50),
+            // Wskaźnik ładowania
+            CircularProgressIndicator(
+              valueColor: AlwaysStoppedAnimation<Color>(Colors.blue[700]!),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
