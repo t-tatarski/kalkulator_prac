@@ -1,72 +1,149 @@
 [
   {
     "id": "p001",
-    "name": "Korona protetyczna porcelanowa",
+    "name": "Korona protetyczna porcelanowa metal",
     "description": "Standardowa korona protetyczna na podbudowie metalowej pokryta porcelaną",
-    "category": "Korony",
-    "price": 800.00
+    "category": "Uzupełnienia stałe",
+    "price": 650.00
   },
   {
     "id": "p002",
     "name": "Korona pełnoceramiczna",
-    "description": "Korona wykonana w całości z ceramiki bez podbudowy metalowej",
-    "category": "Korony",
-    "price": 1200.00
+    "description": "Korona wykonana w całości z tlenku cyrkonu",
+    "category": "Uzupełnienia stałe",
+    "price": 900.00
   },
-  {
+    {
     "id": "p003",
-    "name": "Most 3-punktowy",
-    "description": "Most protetyczny obejmujący 3 zęby",
-    "category": "Mosty",
-    "price": 2400.00
-  },
-  {
-    "id": "p004",
-    "name": "Proteza częściowa akrylowa",
-    "description": "Standardowa proteza częściowa wykonana z akrylu",
-    "category": "Protezy",
-    "price": 1500.00
-  },
-  {
-    "id": "p005",
-    "name": "Proteza szkieletowa",
-    "description": "Proteza częściowa na podbudowie metalowej",
-    "category": "Protezy",
-    "price": 2800.00
-  },
-  {
-    "id": "p006",
-    "name": "Implant dentystyczny",
-    "description": "Tytanowy implant zębowy z łącznikiem",
-    "category": "Implanty",
-    "price": 3500.00
-  },
-  {
-    "id": "p007",
-    "name": "Licówka porcelanowa",
-    "description": "Cienka nakładka porcelanowa na powierzchnię zęba",
-    "category": "Licówki",
+    "name": "Korona pełnoceramiczna licowana",
+    "description": "Korona z podbudową cyrkonową licowana",
+    "category": "Korony",
     "price": 900.00
   },
   {
+    "id": "p004",
+    "name": "Dziąsło ceramiczne 1pkt",
+    "description": "Dziąsło ceramiczne z różowej porcelany",
+    "category": "Korony",
+    "price": 180.00
+  },
+  {
+    "id": "p005",
+    "name": "Margin ceramiczne 1pkt",
+    "description": "Stopień ceramiczny MARGIN",
+    "category": "Korony",
+    "price": 180.00
+  },
+  {
+    "id": "p006",
+    "name": "Most x-punktowy",
+    "description": "Most protetyczny, cena za punkt",
+    "category": "Mosty",
+    "price": 600.00
+  },
+  {
+    "id": "p007",
+    "name": "Proteza częściowa akrylowa",
+    "description": "Standardowa proteza częściowa wykonana z akrylu",
+    "category": "Akryl",
+    "price": 800.00
+  },
+  {
     "id": "p008",
-    "name": "Wkład koronowo-korzeniowy",
-    "description": "Odbudowa zęba po leczeniu kanałowym",
-    "category": "Odbudowy",
-    "price": 450.00
+    "name": "Proteza całkowita akrylowa",
+    "description": "Standardowa proteza całkowita wykonana z akrylu",
+    "category": "Akryl",
+    "price": 800.00
   },
   {
     "id": "p009",
+    "name": "Naprawa protezy akrylowej - sklejenie",
+    "description": "Standardowe sklejenie pękniętej protezy",
+    "category": "Akryl",
+    "price": 100.00
+  },
+  {
+    "id": "p010",
+    "name": "Podścielenie protezy akrylowej - twarde",
+    "description": "Podścielenie akrylem na gorąco protezy",
+    "category": "Akryl",
+    "price": 370.00
+  },
+  {
+    "id": "p011",
+    "name": "Proteza całkowita akrylowa",
+    "description": "Standardowa proteza całkowita wykonana z akrylu",
+    "category": "Protezy",
+    "price": 1100.00
+  },
+  {
+    "id": "p012",
+    "name": "Proteza szkieletowa",
+    "description": "Proteza częściowa na podbudowie metalowej",
+    "category": "Szkielet",
+    "price": 800.00
+  },
+  {
+    "id": "p013",
+    "name": "Implant dentystyczny",
+    "description": "Tytanowy implant zębowy z łącznikiem",
+    "category": "Implanty",
+    "price": 1800.00
+  },
+  {
+    "id": "p014",
+    "name": "Licówka porcelanowa",
+    "description": "Cienka nakładka porcelanowa na powierzchnię zęba",
+    "category": "Licówki",
+    "price": 800.00
+  },
+  {
+    "id": "p015",
+    "name": "Licówka kompowytowa",
+    "description": "licówka porcelanowa na powierzchnię zęba",
+    "category": "Licówki",
+    "price": 700.00
+  },
+  {
+    "id": "p016",
+    "name": "Wkład koronowo-korzeniowy lany",
+    "description": "Odbudowa zęba po leczeniu kanałowym",
+    "category": "Odbudowy",
+    "price": 350.00
+  },
+   {
+    "id": "p017",
+    "name": "Wkład koronowo-korzeniowy złoty",
+    "description": "Odbudowa zęba po leczeniu kanałowym",
+    "category": "Odbudowy",
+    "price": 350.00
+  },
+  {
+    "id": "p018",
     "name": "Szyna relaksacyjna",
-    "description": "Szyna chroniąca zęby przed zgrzytaniem",
+    "description": "Szyna chroniąca zęby",
     "category": "Inne",
     "price": 350.00
   },
   {
-    "id": "p010",
-    "name": "Profesjonalne wybielanie zębów",
-    "description": "Zabieg wybielania zębów w gabinecie",
-    "category": "Estetyka",
-    "price": 600.00
-  }
+    "id": "p019",
+    "name": "Szyna dla sportowców",
+    "description": "Szyna chroniąca zęby przed urazem",
+    "category": "Inne",
+    "price": 350.00
+  },
+  {
+    "id": "p020",
+    "name": "Szyna do wybielania",
+    "description": "Zabieg wybielania zębów",
+    "category": "Szyny do wybielania",
+    "price": 300.00
+  },
+  {
+    "id": "p021",
+    "name": "Dobór koloru zęba",
+    "description": "Indywidualny dobór koloru ze zdjęciem",
+    "category": "Usługi",
+    "price": 120.00
+  },
 ]
