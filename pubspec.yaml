@@ -11,11 +11,22 @@ dependencies:
     sdk: flutter
   http: ^1.1.0
   cupertino_icons: ^1.0.5
+  flutter_svg: ^2.0.7
+  pdf: ^3.10.8
+  printing: ^5.12.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  flutter_native_splash: ^2.3.7
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+flutter_native_splash:
+  color: "#ffffff"
+  android: false
+  ios: true
+  web: false
