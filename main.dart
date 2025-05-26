@@ -20,13 +20,13 @@ class ProteticCalculatorApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: const SplashScreen(), // splash screen
-      debugShowCheckedModeBanner: false, 
+      home: const SplashScreen(), // splashscreen
+      debugShowCheckedModeBanner: false,
     );
   }
 }
 
-// Nowa klasa Splash Screen
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -189,7 +189,7 @@ class _HomePageState extends State<HomePage> {
           style: TextStyle(color: Colors.white),
         ),
         elevation: 2,
-        toolbarTextStyle: TextStyle(color: Color(0xffffffff)),
+        toolbarTextStyle: TextStyle(color: Color(0xffbbc7d3)),
       ),
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
@@ -227,7 +227,7 @@ class _HomePageState extends State<HomePage> {
                                           return ListTile(
                                             title: Text(selectedItem.item.name),
                                             subtitle: Text(
-                                                'Cena: ${selectedItem.item.price.toStringAsFixed(2)} zł'),
+                                                'Cena: ${selectedItem.item.price.toStringAsFixed(2)} pln'),
                                             trailing: Row(
                                               mainAxisSize: MainAxisSize.min,
                                               children: [
@@ -275,23 +275,26 @@ class _HomePageState extends State<HomePage> {
                                     const Text(
                                       'Suma:',
                                       style: TextStyle(
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.bold,
-                                      ),
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.pink),
                                     ),
                                     Text(
-                                      '${total.toStringAsFixed(2)} zł',
+                                      '${total.toStringAsFixed(2)} pln',
                                       style: const TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
                                     ElevatedButton.icon(
-                                      icon: const Icon(Icons.summarize),
-                                      label: const Text('Podsumowanie'),
+                                      icon: const Icon(
+                                        Icons.summarize,
+                                        color: Colors.grey,
+                                      ),
+                                      label: const Text('podsum.'),
                                       style: ElevatedButton.styleFrom(
                                         backgroundColor: Color(0xFF063C73),
-                                        foregroundColor: Colors.white,
+                                        foregroundColor: Colors.pinkAccent,
                                       ),
                                       onPressed: selectedItems.isEmpty
                                           ? null
@@ -328,7 +331,7 @@ class _HomePageState extends State<HomePage> {
                               const Text(
                                 'Dostępne elementy :',
                                 style: TextStyle(
-                                  fontSize: 16,
+                                  fontSize: 14,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
@@ -351,7 +354,10 @@ class _HomePageState extends State<HomePage> {
                                         ],
                                       ),
                                       trailing: IconButton(
-                                        icon: const Icon(Icons.add_circle),
+                                        icon: const Icon(
+                                          Icons.add_circle,
+                                          color: Colors.lightBlue,
+                                        ),
                                         onPressed: () =>
                                             addItemToCalculation(item),
                                       ),
