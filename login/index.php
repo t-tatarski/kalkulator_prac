@@ -14,8 +14,8 @@ if (!isset($_SESSION['authorized']) || $_SESSION['authorized'] !== true) {
     <title>strona glowna</title>
 </head>
 <body>
-    <h1>Witamy stronie glownej zabezpieczonej!</h1>
-    <p>Tylko osoby z kodem dostępu mogą tu wejść.</p>
+    <h1>własciwa strona</h1>
+    <p>dostęp tylko z kodem</p>
     <a href="logout.php">Wyloguj się</a>
 </body>
 </html>
